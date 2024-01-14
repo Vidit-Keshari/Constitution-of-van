@@ -1,0 +1,69 @@
+body {
+    background-color: teal;
+}
+
+.btn-warning {
+    font-size: large;
+    box-shadow: 1px 1px 30px red;
+}
+.btn-warning:hover {
+    background-color: rgb(252, 85, 85) !important;
+    border-color: rgb(252, 85, 85) !important;
+    box-shadow: 1px 1px 20px orangered !important;
+    color: greenyellow;
+    cursor: default;
+}
+
+.btn-info:hover {
+    background-color: blue;
+    box-shadow: 1px 1px 30px navy;
+    color: greenyellow;
+    cursor: default;
+}
+
+.btn-danger {
+    box-shadow: 0px 0px 15px purple;
+}
+
+.btn-danger:hover {
+    background-color: darkmagenta;
+    border-color: midnightblue;
+    box-shadow: 0px 0px 15px purple;
+    cursor: default;
+}
+
+.btn-success:hover {
+    background-color: steelblue;
+    border-color: steelblue;
+    color: crimson;
+    box-shadow: 0px 0px 10px midnightblue;
+    cursor: default;
+}
+
+.btn-success {
+    box-shadow: 0px 0px 10px midnightblue;
+}
+
+.footer {
+    font-size: x-large;
+}
+
+.footer-info {
+    font-size: medium;
+}
+
+#copyright_footer {
+    bottom: 0;
+    width: 100%;
+    position: fixed;
+    margin-bottom: 0px;
+}
+
+img {
+    width: 150px;
+    height: 100px;
+}
+
+.bug {
+    cursor: pointer !important;
+}
